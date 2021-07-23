@@ -1,6 +1,6 @@
-[![Latest Stable Version](https://poser.pugx.org/Manoar/pointable/v/stable)](https://packagist.org/packages/Manoar/pointable)
-[![Total Downloads](https://poser.pugx.org/Manoar/pointable/downloads)](https://packagist.org/packages/Manoar/pointable)
-[![Latest Unstable Version](https://poser.pugx.org/Manoar/pointable/v/unstable)](https://packagist.org/packages/Manoar/pointable) [![License](https://poser.pugx.org/Manoar/pointable/license)](https://packagist.org/packages/Manoar/pointable)
+[![Latest Stable Version](https://poser.pugx.org/tarikmanoar/pointable/v/stable)](https://packagist.org/packages/tarikmanoar/pointable)
+[![Total Downloads](https://poser.pugx.org/tarikmanoar/pointable/downloads)](https://packagist.org/packages/tarikmanoar/pointable)
+[![Latest Unstable Version](https://poser.pugx.org/tarikmanoar/pointable/v/unstable)](https://packagist.org/packages/tarikmanoar/pointable) [![License](https://poser.pugx.org/tarikmanoar/pointable/license)](https://packagist.org/packages/tarikmanoar/pointable)
 
 # Laravel Pointable
 Point Transaction system for laravel 5
