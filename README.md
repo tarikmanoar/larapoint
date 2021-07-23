@@ -1,6 +1,7 @@
 [![Latest Stable Version](https://poser.pugx.org/tarikmanoar/larapoint/v/stable)](https://packagist.org/packages/tarikmanoar/larapoint)
 [![Total Downloads](https://poser.pugx.org/tarikmanoar/larapoint/downloads)](https://packagist.org/packages/tarikmanoar/larapoint)
-[![Latest Unstable Version](https://poser.pugx.org/tarikmanoar/larapoint/v/unstable)](https://packagist.org/packages/tarikmanoar/larapoint) [![License](https://poser.pugx.org/tarikmanoar/larapoint/license)](https://packagist.org/packages/tarikmanoar/pointable)
+[![Latest Unstable Version](https://poser.pugx.org/tarikmanoar/larapoint/v/unstable)](https://packagist.org/packages/tarikmanoar/larapoint) 
+[![License](https://poser.pugx.org/tarikmanoar/larapoint/license)](https://packagist.org/packages/tarikmanoar/pointable)
 
 # Laravel Pointable
 Point Transaction system for laravel ^8
@@ -10,7 +11,7 @@ Point Transaction system for laravel ^8
 First, pull in the package through Composer.
 
 ```js
-composer require Manoar/larapoint
+composer require tarikmanoar/larapoint
 ```
 
 And then include the service provider within `app/config/app.php`.
@@ -22,7 +23,7 @@ And then include the service provider within `app/config/app.php`.
 ```
 
 At last you need to publish and run the migration.
-```
+```php
 php artisan vendor:publish --provider="Manoar\Pointable\PointableServiceProvider" && php artisan migrate
 ```
 
