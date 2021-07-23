@@ -12,7 +12,7 @@ trait Pointable
      */
     public function transactions($amount = null)
     {
-        return $this->morphMany(Transaction::class, 'pointable')->orderBy('created_at','desc')->take($amount);
+        return $this->morphMany(Transaction::class, 'pointable')->orderBy('created_at', 'desc')->take($amount);
     }
 
     // /**
@@ -70,8 +70,9 @@ trait Pointable
      *
      * @return mix
      */
-    public function countTransactions(){
-      return $this->transactions()
+    public function countTransactions()
+    {
+        return $this->transactions()
           ->count();
     }
 

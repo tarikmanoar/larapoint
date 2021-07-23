@@ -1,18 +1,16 @@
 {
-    "name": "trexology/pointable",
-    "description": "Point system for Laravel 5",
+    "name": "tarikmanoar/pointable",
+    "description": "Point system for Laravel 8",
     "keywords": ["points", "pointable", "laravel", "loyalty", "reward"],
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Trex Lim",
-            "email": "trexlim@gmail.com"
-        }
-    ],
+    "authors": [{
+        "name": "Tarik Manoar",
+        "email": "tarikmanoar@gmail.com"
+    }],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "~5.0"
+        "php": ">=7.4",
+        "illuminate/support": "^8.0"
     },
     "autoload": {
         "psr-4": {
