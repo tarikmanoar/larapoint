@@ -1,6 +1,6 @@
-[![Latest Stable Version](https://poser.pugx.org/trexology/pointable/v/stable)](https://packagist.org/packages/trexology/pointable)
-[![Total Downloads](https://poser.pugx.org/trexology/pointable/downloads)](https://packagist.org/packages/trexology/pointable)
-[![Latest Unstable Version](https://poser.pugx.org/trexology/pointable/v/unstable)](https://packagist.org/packages/trexology/pointable) [![License](https://poser.pugx.org/trexology/pointable/license)](https://packagist.org/packages/trexology/pointable)
+[![Latest Stable Version](https://poser.pugx.org/Manoar/pointable/v/stable)](https://packagist.org/packages/Manoar/pointable)
+[![Total Downloads](https://poser.pugx.org/Manoar/pointable/downloads)](https://packagist.org/packages/Manoar/pointable)
+[![Latest Unstable Version](https://poser.pugx.org/Manoar/pointable/v/unstable)](https://packagist.org/packages/Manoar/pointable) [![License](https://poser.pugx.org/Manoar/pointable/license)](https://packagist.org/packages/Manoar/pointable)
 
 # Laravel Pointable
 Point Transaction system for laravel 5
@@ -10,20 +10,20 @@ Point Transaction system for laravel 5
 First, pull in the package through Composer.
 
 ```js
-composer require trexology/pointable
+composer require Manoar/pointable
 ```
 
 And then include the service provider within `app/config/app.php`.
 
 ```php
 'providers' => [
-    Trexology\Pointable\PointableServiceProvider::class
+    Manoar\Pointable\PointableServiceProvider::class
 ];
 ```
 
 At last you need to publish and run the migration.
 ```
-php artisan vendor:publish --provider="Trexology\Pointable\PointableServiceProvider" && php artisan migrate
+php artisan vendor:publish --provider="Manoar\Pointable\PointableServiceProvider" && php artisan migrate
 ```
 
 -----
@@ -34,8 +34,8 @@ php artisan vendor:publish --provider="Trexology\Pointable\PointableServiceProvi
 
 namespace App;
 
-use Trexology\Pointable\Contracts\Pointable;
-use Trexology\Pointable\Traits\Pointable as PointableTrait;
+use Manoar\Pointable\Contracts\Pointable;
+use Manoar\Pointable\Traits\Pointable as PointableTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class User extends Model implements Pointable

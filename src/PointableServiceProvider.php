@@ -1,6 +1,6 @@
 <?php
 
-namespace Trexology\Pointable;
+namespace Manoar\Pointable;
 
 use Illuminate\Support\ServiceProvider;
 

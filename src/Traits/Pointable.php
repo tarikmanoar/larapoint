@@ -1,8 +1,8 @@
 <?php
 
-namespace Trexology\Pointable\Traits;
+namespace Manoar\Pointable\Traits;
 
-use Trexology\Pointable\Models\Transaction;
+use Manoar\Pointable\Models\Transaction;
 use Illuminate\Database\Eloquent\Model;
 
 trait Pointable

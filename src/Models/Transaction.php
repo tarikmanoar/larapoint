@@ -1,6 +1,6 @@
 <?php
 
-namespace Trexology\Pointable\Models;
+namespace Manoar\Pointable\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
