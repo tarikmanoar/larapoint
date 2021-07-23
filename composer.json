@@ -1,5 +1,5 @@
 {
-    "name": "tarikmanoar/pointable",
+    "name": "tarikmanoar/larapoint",
     "description": "Point system for Laravel 8",
     "keywords": ["points", "pointable", "laravel", "loyalty", "reward"],
     "license": "MIT",

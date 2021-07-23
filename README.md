@@ -1,16 +1,16 @@
-[![Latest Stable Version](https://poser.pugx.org/tarikmanoar/pointable/v/stable)](https://packagist.org/packages/tarikmanoar/pointable)
-[![Total Downloads](https://poser.pugx.org/tarikmanoar/pointable/downloads)](https://packagist.org/packages/tarikmanoar/pointable)
-[![Latest Unstable Version](https://poser.pugx.org/tarikmanoar/pointable/v/unstable)](https://packagist.org/packages/tarikmanoar/pointable) [![License](https://poser.pugx.org/tarikmanoar/pointable/license)](https://packagist.org/packages/tarikmanoar/pointable)
+[![Latest Stable Version](https://poser.pugx.org/tarikmanoar/larapoint/v/stable)](https://packagist.org/packages/tarikmanoar/larapoint)
+[![Total Downloads](https://poser.pugx.org/tarikmanoar/larapoint/downloads)](https://packagist.org/packages/tarikmanoar/larapoint)
+[![Latest Unstable Version](https://poser.pugx.org/tarikmanoar/larapoint/v/unstable)](https://packagist.org/packages/tarikmanoar/larapoint) [![License](https://poser.pugx.org/tarikmanoar/larapoint/license)](https://packagist.org/packages/tarikmanoar/pointable)
 
 # Laravel Pointable
-Point Transaction system for laravel 5
+Point Transaction system for laravel ^8
 
 ## Installation
 
 First, pull in the package through Composer.
 
 ```js
-composer require Manoar/pointable
+composer require Manoar/larapoint
 ```
 
 And then include the service provider within `app/config/app.php`.
