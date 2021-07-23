@@ -1,20 +1,28 @@
 {
     "name": "tarikmanoar/larapoint",
-    "description": "Point system for Laravel 8",
-    "keywords": ["points", "pointable", "laravel", "loyalty", "reward"],
+    "type": "package",
+    "description": "Point system for Laravel ^8",
+    "keywords": ["points", "pointable", "laravel", "loyalty", "reward", "larapoint"],
     "license": "MIT",
     "authors": [{
         "name": "Tarik Manoar",
-        "email": "tarikmanoar@gmail.com"
+        "email": "tarikmanoar@gmail.com",
+        "homepage": "https://github.com/tarikmanoar",
+        "role": "Developer"
     }],
-    "minimum-stability": "dev",
     "require": {
-        "php": ">=7.4",
-        "illuminate/support": "^8.0"
+        "php": "^7.2|^8.0",
+        "illuminate/support": "^5.8|^6.0|^7.0|^8.0"
+    },
+    "suggest": {
+        "laravel/framework": "To test the Laravel bindings",
+        "laravel/lumen-framework": "To test the Lumen bindings"
     },
     "autoload": {
         "psr-4": {
             "Manoar\\Pointable\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
